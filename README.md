@@ -25,7 +25,7 @@ A simple REST API built with FastAPI to perform CRUD operations on User entities
 ### 1. Install Dependencies
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
@@ -47,10 +47,6 @@ Edit `.env` with your database credentials:
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/fastapi_db
 ```
  
-
-
- 
-
 ## Project Structure
 
 ```
@@ -67,5 +63,3 @@ python-fastapi-postgres/
 ├── .env.example
 └── README.md
 ```
-
- 
